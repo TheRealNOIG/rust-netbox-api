@@ -5,7 +5,6 @@ java $JAVA_OPTS -jar openapi-generator-cli-7.0.1.jar generate \
 	-g rust \
 	-p useSingleRequestParameter=true \
 	--package-name netbox \
-	--package-version 0.0.1 \
 	--input-spec "${PWD}/netbox_openapi.yaml" \
 	--output "${PWD}/api_output"
 
